@@ -1,7 +1,9 @@
 var express = require('express')
 var app = express()
 
-app.get('/', function())
+app.get('/', function(req, res) {
+  
+})
 
 
 module.exports = app
